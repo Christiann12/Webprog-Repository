@@ -5,6 +5,11 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->view('headerNfooter/header');
 		$this->load->view('MainView');
+		$this->load->view('headerNfooter/footer');
 	}
+
+
 }
+
