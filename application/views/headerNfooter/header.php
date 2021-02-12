@@ -17,11 +17,51 @@
 
 <!-- Navbar (sit on top) -->
 
+<!-- Top Bar -->
 <div class="top-bar">
-  <div class="container">
-    <div class="col-12 text-right">
-      <p><a href="#">ODMS Enterprise</a></p>
-    </div>
-  </div>
-</div>
+		<div class="container">
+			 <div class="row">
+				<div class="col-sm-6 col-6 text-left">
+					<p><a href="index.html">ODMS Enterprise</a></p>
+				   
+			   </div>
+			   
+			   <div class="col-sm-6 col-6 text-right">
+				   <img src="../application/assets/images/logo.jpg" alt="logo" width="50px" height="45px" class="float-right">
+			  </div>
+			  
+			 </div>
+			
+		</div>
+		
+	</div>
+<!-- End Top Bar -->
+	<!-- Navigation -->
 
+	<nav class="navbar navbar-light navbar-expand-lg border border-dark" style="background-color: yellow;">
+		<div class="container">
+			<!-- <a href="index.html" class="navbar-brand">
+				<img src="img/logo.png" alt="Logo">
+			</a> -->
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon">
+
+				</span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav nav-fill w-100">
+					<li class="nav-item"><a href="" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="" class="nav-link">FAQs</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Financial Assistance</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Ping</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Transaction</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Tips</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Support</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- End Navigation -->
