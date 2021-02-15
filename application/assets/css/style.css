@@ -8,70 +8,136 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar{
-  background: #18191a;
-  height: 4.3rem;
-  padding: 0.8rem 0;
+  background-color: #18191a;
+  height: 4rem;
+  padding: 0.5rem 0;
 }
 
-.top-bar a{
-  color: #FFEA00 ;
+.top-bar .container .row .text p a{
+  color:#FFEA00 ;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: 'Inter';
   font-weight: 800;
+ 
 }
 
-
 @media (min-width: 576px) {
-  .top-bar a{
+  .top-bar .container .row .text p a{
     color: #FFEA00 ;
     text-decoration: none;
     font-size: 1.5rem;
     font-family: 'Inter';
     font-weight: 800;
+  }
+  .top-bar{
+    background: #18191a;
+    height: 4rem;
+    padding: 0.8rem 0;
+  }
+  
+}
+
+
+@media (min-width: 768px) {
+  .top-bar .container .row .text p a{
+    color: #FFEA00 ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    font-weight: 800;
+  }
+  .top-bar{
+    background: #18191a;
+    height: 4rem;
+    padding: 0.8rem 0;
+  }
+  
+}
+
+
+@media (min-width: 992px) { 
+  .top-bar .container .row .text p a{
+    color: #FFEA00 ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    font-weight: 800;
+  }
+  .top-bar{
+    background: #18191a;
+    height: 4rem;
+    padding: 0.8rem 0;
+  }
+ 
+}
+
+@media (min-width: 1200px) { 
+  .top-bar .container .row .text p a{
+    color: #FFEA00 ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    font-weight: 800;
+  }
+  .top-bar{
+    background: #18191a;
+    height: 4rem;
+    padding: 0.8rem 0;
+  }
+ 
+}
+
+/*============= NAVIGATION =============*/
+  
+
+#navbarResponsive ul li a{
+  color: black;
+  font-family: 'Inter';
+  font-weight: 800;
+  padding-left: 2rem;
+}
+#navbarResponsive ul li a:hover{
+  color: white;
+  font-family: 'Inter';
+  font-weight: 800;
+}
+.title{
+  color: #FFEA00;
+  display: block;
+}
+
+
+@media (min-width: 576px) {
+ 
+  .title{
+    color: #FFEA00;
+    display: block;
   }
 }
 
 
 @media (min-width: 768px) {
-  .top-bar a{
-    color: #FFEA00 ;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-family: 'Inter';
-    font-weight: 800;
+
+  .title{
+    display: block;
   }
 }
 
 
 @media (min-width: 992px) { 
-  .top-bar a{
-    color: #FFEA00 ;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-family: 'Inter';
-    font-weight: 800;
+ 
+  .title{
+    display: none;
   }
 }
 
 @media (min-width: 1200px) { 
-  .top-bar a{
-    color: #FFEA00 ;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-family: 'Inter';
-    font-weight: 800;
+  
+  .title{
+    display: none;
   }
 }
-
-/*============= NAVIGATION =============*/
-  
-#navbarResponsive ul li a{
-    color: black;
-    font-family: 'Inter';
-    font-weight: 800;
-  }
-
 /*============= CAROUSEL =============*/
 
 
@@ -95,8 +161,113 @@ body {
 
 
 /*============= FOOTER =============*/
+footer {
+  background-color: #18191a;
+  padding: 1rem 1rem 1rem;
+}
 
+footer a{
+  color:#FFEA00;
+  text-decoration: none;
+  font-family: 'Inter';
+}
 
+footer .titlePar {
+  color: #FFEA00;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 700;
+}
+footer .contactp{
+  color: #FFEA00;
+  text-decoration: none;
+  font-family: 'Inter';
+  text-align: left;
+  display: inline-block;
+}
+footer .icon{
+  color: #FFEA00 !important;
+  
+}
+
+ul.navigation {
+  list-style-type: disc;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.navigation li{
+  color: #FFEA00;
+}
+ul.social {
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.social li{
+  margin: 0 auto;
+}
+
+ul.contact {
+  list-style-type: none;
+  max-width: 18rem;
+  margin: 0 auto;
+  padding: 0;
+}
+footer .svg-inline--fa {
+  font-size: 2.3rem;
+}
+footer .svg-inline--fa:hover {
+  color:white;
+}
+footer a.navFooter:hover{
+  color:white !important;
+}
+
+footer .mid{
+    margin-top: 50px;
+    padding-bottom: 100px;
+    border-right: 0px solid #FFEA00;
+    border-left: 0px solid #FFEA00;
+    border-top: 4px solid #FFEA00;
+    border-bottom: 4px solid #FFEA00;
+  
+}
+
+@media (min-width: 576px) {
+
+  footer .mid{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    border-right: 0px solid #FFEA00;
+    border-left: 0px solid #FFEA00;
+    border-top: 0px solid #FFEA00;
+    border-bottom: 0px solid #FFEA00;
+  }
+  footer .right{
+    margin-top: 50px;
+    border-top: 4px solid #FFEA00;
+  }
+}
+
+@media (min-width: 768px) {
+
+  footer .right{
+    margin-top: 0px;
+    border-top: 0px solid #FFEA00;
+  }
+  footer .mid{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    border-right: 4px solid #FFEA00;
+    border-left: 4px solid #FFEA00;
+    border-top: 0px solid #FFEA00;
+    border-bottom: 0px solid #FFEA00;
+  }
+}
 
 /*============= SOCKET =============*/
 
