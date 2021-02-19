@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/bootstrap.min.css">
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/headerandfooterstyle.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/homepageStyle.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -40,7 +41,7 @@
 
 	<!-- Navigation -->
 
-	<nav class="navbar navbar-light navbar-expand-lg border border-dark" style="background-color: #FFEA00;">
+	<nav class="navbar navbar-light navbar-expand-lg border border-dark bar">
 		<div class="container">
 			<p class="title"></p>
 			<button class="navbar-toggler " id="toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
