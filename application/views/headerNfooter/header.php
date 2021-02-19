@@ -7,9 +7,9 @@
 	<title>ODMS Website</title>
 	<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
 	<!-- Bootstrap 4.5 CSS -->
-	<link rel="stylesheet" href="../application/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/bootstrap.min.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="../application/assets/css/style.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/headerandfooterstyle.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
 			   </div>
 			   
 			   <div class="col-md-6 col-sm-6 col-6 text-right">
-				   <img src="../application/assets/images/logo.jpg" alt="logo" width="50px" height="45px" class="float-right">
+				   <img src="<?php echo base_url(); ?>application/assets/images/logo.jpg" alt="logo" width="50px" height="45px" class="float-right">
 			  </div>
 			  
 			 </div>
@@ -52,13 +52,13 @@
 			<div class="collapse navbar-collapse " id="navbarResponsive">
 				
 				<ul class="navbar-nav nav-fill w-100">
-					<li class="nav-item"><a href="" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="" class="nav-link">FAQs</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Financial Assistance</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Ping</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Transaction</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Tips</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Support</a></li>
+				<li class="nav-item"><a href="<?php echo base_url() ?>main/index/HomePage" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/FAQ" class="nav-link">FAQs</a></li>
+					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/FinancialAssistance" class="nav-link">Financial Assistance</a></li>
+					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/MainView" class="nav-link">Ping</a></li>
+					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Transaction" class="nav-link">Transaction</a></li>
+					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Tips" class="nav-link">Tips</a></li>
+					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Support" class="nav-link">Support</a></li>
 				</ul>
 			</div>
 		</div>
