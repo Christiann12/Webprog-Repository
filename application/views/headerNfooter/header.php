@@ -11,6 +11,7 @@
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/headerandfooterstyle.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/homepageStyle.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/transactionStyle.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto&display=swap" rel="stylesheet">
 </head>
