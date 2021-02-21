@@ -5,13 +5,13 @@
 			<div class="col-12 col-sm-6 col-md-4 col-lg-4 left">
 				<p class="pt-2 titlePar">Navigate to:</p>
 				<ul class="navigation pt-3">
-					<li><a href="" class="navFooter">Home</a></li>
-					<li><a href="" class="navFooter">FAQs</a></li>
-					<li><a href="" class="navFooter">Financial Assistance</a></li>
-					<li><a href="" class="navFooter">Ping</a></li>
-					<li><a href="" class="navFooter">Transaction</a></li>
-					<li><a href="" class="navFooter">Tips</a></li>
-					<li><a href="" class="navFooter">Support</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/HomePage" class="navFooter">Home</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/FAQ" class="navFooter">FAQs</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/FinancialAssistance" class="navFooter">Financial Assistance</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Ping" class="navFooter">Ping</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Transaction" class="navFooter">Transaction</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Tips" class="navFooter">Tips</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Support" class="navFooter">Support</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-4 mid">
