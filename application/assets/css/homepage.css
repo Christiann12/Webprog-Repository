@@ -1,0 +1,430 @@
+/* about us section */
+
+.aboutus {
+    margin-top: 50px; 
+    margin-left: 25px;  
+    margin-right: 25px;
+    background-color: #18191a;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+.carousel-inner{
+    max-height: 38rem !important;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    z-index: 1;
+}
+
+.carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active {
+    transition: transform 1.2s ease;
+}
+
+.aboutusdetails p{
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.aboutusdetails h1{
+    font-size: 1.5rem;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+@media (min-width: 576px) {
+ 
+    .aboutusdetails h1{
+        font-size: 1.5rem;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    
+  }
+  
+  
+  @media (min-width: 768px) {
+  
+    .aboutusdetails h1{
+        font-size: 2.5rem;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    .aboutus {
+        margin-top: 60px; 
+        margin-left: 40px;  
+        margin-right: 40px;
+    }
+    
+  }
+  
+  
+  @media (min-width: 992px) { 
+    .aboutusdetails h1{
+        font-size: 2.5rem;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    .aboutus {
+        margin-top: 90px; 
+        margin-left: 50px;  
+        margin-right: 50px;
+    }
+    
+  }
+  
+  @media (min-width: 1200px) { 
+    .aboutusdetails h1{
+        font-size: 2.5rem;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    .aboutus {
+        margin-top: 90px; 
+        margin-left: 50px;  
+        margin-right: 50px;
+    }
+    
+  }
+/* end of about us */
+
+/* serviceshome */
+
+.serviceshome {
+    margin-top: 40px; 
+}
+
+.serviceshome h1 {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.serviceitem {
+    padding-top:40px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.serviceitem img{
+    max-height: 15rem !important;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+.serviceitem p{
+    color: black;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.serviceshome h4{
+    color: black;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+@media (min-width: 576px) {
+ 
+    .serviceitem img{
+        max-height: 15rem !important;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+    .serviceshome h1 {
+        font-size: 1.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    
+  }
+  
+  
+  @media (min-width: 768px) {
+  
+    .serviceitem img{
+        max-height: 15rem !important;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+    .serviceshome h1 {
+        font-size: 2.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    .serviceshome {
+        margin-top: 60px; 
+    }
+  }
+
+  @media (min-width: 992px) { 
+   
+    .serviceitem img{
+        max-height: 20rem !important;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+    .serviceshome h1 {
+        font-size: 2.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    .serviceshome {
+        margin-top: 90px; 
+    }
+  }
+  
+  @media (min-width: 1200px) { 
+    .serviceitem img{
+        max-height: 20rem !important;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+    .serviceshome h1 {
+        font-size: 2.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    .serviceshome {
+        margin-top: 90px; 
+    }
+  }
+/* end of serviceshome */
+
+/* Team section */
+
+.teamsection{
+    padding-top: 50px;
+    /* background-color: red; */
+}
+
+.teamsection h1 {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.teamitem img{
+    
+    min-height: 20rem;
+    max-height: 40rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+.teamitem p{
+    color: black;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.teamitem h4{
+    color: black;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+@media (min-width: 576px) {
+    
+    .teamsection h1 {
+        font-size: 1.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+
+  }
+  
+  
+  @media (min-width: 768px) {
+    .teamsection{
+        padding-top: 60px;
+        margin-bottom: 100px;
+    }
+    .teamsection h1 {
+        font-size: 2.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+  
+  }
+
+  @media (min-width: 992px) { 
+    .teamsection{
+        padding-top: 90px;
+        margin-bottom: 100px;
+    }
+    .teamsection h1 {
+        font-size: 2.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+   
+  }
+  
+  @media (min-width: 1200px) { 
+    .teamsection{
+        padding-top: 90px;
+        margin-bottom: 100px;
+    }
+    .teamsection h1 {
+        font-size: 2.5rem;
+        color: black;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 800;
+    }
+    
+  }
+/* end of team section */
+
+/* Financial assistance preview */
+
+  .finpreview{
+    
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #18191a;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+  }
+
+  .finpreviewitem img{
+    
+    max-height: 38rem;
+  }
+
+  .finpreviewitem .btn{
+    display: inline-block;
+    color: black;
+    font-family: 'Inter';
+    font-weight: 400;
+    background-color: #FFEA00;  
+  }
+
+  .finpreviewitem p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 400;
+  }
+
+  .finpreviewitem h1{
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+  }
+
+  @media (min-width: 576px) {
+    .finpreviewitem h1{
+        font-size: 1.5rem;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+      }
+      .finpreviewitem p{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 400;
+      }
+  }
+  
+  
+  @media (min-width: 768px) {
+    .finpreview{
+        
+        margin-top: 60px;
+        margin-bottom: 100px;
+        background-color: #18191a;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+      }
+      .finpreviewitem h1{
+        font-size: 2.5rem;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+      }
+      .finpreviewitem p{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 400;
+      }
+  }
+
+  @media (min-width: 992px) { 
+    .finpreview{
+        
+        margin-top: 90px;
+        margin-bottom: 100px;
+        background-color: #18191a;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+      }
+      .finpreviewitem h1{
+        font-size: 2.5rem;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+      }
+      .finpreviewitem p{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 400;
+      }
+  }
+  
+  @media (min-width: 1200px) { 
+    .finpreview{
+        
+        margin-top: 90px;
+        margin-bottom: 100px;
+        background-color: #18191a;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+      }
+      .finpreviewitem h1{
+        font-size: 2.5rem;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 800;
+      }
+      .finpreviewitem p{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: inline-block;
+        color: #FFEA00;
+        font-family: 'Inter';
+        font-weight: 400;
+      }
+  }
+
+  /* End of financial assistance preview */
