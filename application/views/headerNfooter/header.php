@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/bootstrap.min.css">
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/headerandfooterstyle.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/homepage.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/transactionStyle.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -40,7 +42,7 @@
 
 	<!-- Navigation -->
 
-	<nav class="navbar navbar-light navbar-expand-lg border border-dark" style="background-color: #FFEA00;">
+	<nav class="navbar navbar-light navbar-expand-lg border border-dark bar">
 		<div class="container">
 			<p class="title"></p>
 			<button class="navbar-toggler " id="toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -55,7 +57,7 @@
 				<li class="nav-item"><a href="<?php echo base_url() ?>main/index/HomePage" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/FAQ" class="nav-link">FAQs</a></li>
 					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/FinancialAssistance" class="nav-link">Financial Assistance</a></li>
-					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/MainView" class="nav-link">Ping</a></li>
+					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Ping" class="nav-link">Ping</a></li>
 					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Transaction" class="nav-link">Transaction</a></li>
 					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Tips" class="nav-link">Tips</a></li>
 					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Support" class="nav-link">Support</a></li>

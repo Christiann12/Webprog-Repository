@@ -1,0 +1,103 @@
+
+.availservices h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+label {
+    color: black;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+select {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.form-group p {
+    color: black;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.serviceamount h2 {
+    color: black;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: black;
+    border-width: 0px;
+}
+
+.btn:hover {
+    background-color: #18191a;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFEA00;
+    border-width: 0px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn:checked {
+    background-color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: black;
+    border-width: 0px;
+}
+
+/* 576px and below */
+@media (max-width: 576px) {
+    .availservices h1 {
+        font-size: 25px;
+    }
+
+    .serviceamount h2 {
+        font-size: 20px;
+    }
+}
+
+/* 576px and up */
+@media (min-width: 576px) {
+    .availservices h1 {
+        font-size: 30px;
+    }
+
+    .serviceamount h2 {
+        font-size: 25px;
+    }
+}
+  
+  
+@media (min-width: 768px) {
+    .availservices h1 {
+        font-size: 36px;
+    }
+
+    .serviceamount h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .availservices h1 {
+        font-size: 40px;
+    }
+
+    .serviceamount h2 {
+        font-size: 36px;
+    }
+  }
