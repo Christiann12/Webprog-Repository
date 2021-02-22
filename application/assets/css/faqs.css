@@ -1,0 +1,131 @@
+
+.faqs h1
+{
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.faqs h4
+{
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 0px;
+    margin-bottom: 10px;
+}
+.btn-link
+{
+    margin-top: 5px;
+    width: 100%;
+    height: 75px;
+    color: #FFEA00 ;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none !important;
+    background-color: #18191a ;
+    font-size: 30px;
+    overflow: hidden !;
+    border: white;
+    text-indent: 30px;
+    outline: none!important;
+    position: left;
+}
+
+.btn-link:hover{
+    background-color: #FFEA00;
+    color: black;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.faqbody
+{
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 100px;
+    margin: 10px;
+    font-family: 'Inter'!important;
+    font-weight: 500 !important;
+    overflow: hidden !important;
+    color: #18191a;
+    background: #f5f5f5;
+}
+
+.btn-link:after
+{
+    content: '\25B2'; /* down */
+    width: 80px;
+    text-align: right!important;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+    float: right;
+  }
+  .btn-link.collapsed:after
+  {
+      content: '\25BC'; /* up */
+  }
+
+  .btn-link::before
+  {
+      content: '';
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      background: #fff;
+      z-index: 1;
+      transform: rotate(45deg);
+      left: 30px;
+      top: 46px;
+  }
+
+
+  /* 576px and below */
+@media (max-width: 576px) {
+    .faqs h1 {
+        font-size: 30px;
+    }
+
+    .faqs h4 {
+        font-size: 20px;
+    }
+}
+
+/* 576px and up */
+@media (min-width: 576px) {
+    .faqs h1 {
+        font-size: 40px;
+    }
+
+    .faqs h4 {
+        font-size: 30px;
+    }
+}
+  
+  
+@media (min-width: 768px) {
+    .faqs h1 {
+        font-size: 50px;
+    }
+
+    .faqs h4 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .faqs h1 {
+        font-size: 60px;
+    }
+
+    .faqs h4 {
+        font-size: 50px;
+    }
+  }

@@ -42,5 +42,6 @@
 	<script src="<?php echo base_url(); ?>application/assets/js/popper.min.js"></script>
 	<!-- Font Awesome -->
 	<script src="<?php echo base_url(); ?>application/assets/js/all.min.js"></script>
+	<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script> -->
 </body>
 </html>
