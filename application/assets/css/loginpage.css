@@ -1,0 +1,87 @@
+body {
+    background-color: #18191a;
+}
+
+.leftside img{
+    /* min-width: 10rem;
+    min-height: 10rem; */
+    max-width: 25rem;
+    max-height: 30rem;
+    
+}
+
+.leftside h1{
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.rightside {
+    padding-top: 60px;
+    margin-top: 100px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+.rightside h4{
+    color: black;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.rightside .loginform label{
+    color:black;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.rightside .loginform button{
+    background-color: #FFEA00;
+    color: #18191a;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.rightside .loginform button:hover{
+    background-color: #18191a;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+
+    .rightside {
+        padding-top: 60px;
+        margin-top: 100px;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+}
+  
+@media (min-width: 768px) {
+    .rightside {
+        padding-top: 60px;
+        margin-top: 100px;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+
+}
+
+@media (min-width: 992px) { 
+    .rightside {
+        padding-top: 100px;
+        margin-top: 100px;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+
+}
+
+@media (min-width: 1200px) { 
+    .rightside {
+        padding-top: 100px;
+        margin-top: 100px;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+    }
+
+}
