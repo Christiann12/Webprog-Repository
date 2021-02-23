@@ -5,7 +5,7 @@
     text-align: center;
     font-family: 'Inter';
     font-weight: 800;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .faqs h4
@@ -41,13 +41,13 @@
     background-color: #FFEA00;
     color: black;
     border: none;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 .faqbody
 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     text-indent: 100px;
     margin: 10px;
@@ -73,59 +73,103 @@
       content: '\25BC'; /* up */
   }
 
-  .btn-link::before
-  {
-      content: '';
-      height: 25px;
-      width: 25px;
-      position: absolute;
-      background: #fff;
-      z-index: 1;
-      transform: rotate(45deg);
-      left: 30px;
-      top: 46px;
-  }
 
 
-  /* 576px and below */
+/* 576px and below */
 @media (max-width: 576px) {
     .faqs h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .faqs h4 {
         font-size: 20px;
+        line-height: 0px;
+    }
+
+    .btn-link{
+        font-size: 15px;
+        height: 45px;
+    }
+
+    .btn-link:hover{
+        font-size: 20px;
+    }
+
+    .faqbody{
+        font-size: 10px;
     }
 }
 
 /* 576px and up */
 @media (min-width: 576px) {
     .faqs h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .faqs h4 {
         font-size: 30px;
     }
+    .btn-link{
+        font-size: 20px;
+        height: 55px;
+    }
+
+    .btn-link:hover{
+        font-size: 25px;
+    }
+
+    .faqbody{
+        font-size: 15px;
+    }
+
 }
   
   
 @media (min-width: 768px) {
     .faqs h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .faqs h4 {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    .btn-link{
+        font-size: 25px;
+        height: 65px;
+    }
+
+    .btn-link:hover{
+        font-size: 30px;
+    }
+
+    .faqbody{
+        font-size: 20px;
     }
 }
 
 @media (min-width: 992px) { 
     .faqs h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .faqs h4 {
-        font-size: 50px;
+        font-size: 40px;
+    }
+
+    .btn-link{
+        font-size: 25px;
+        height: 68px;
+    }
+
+    .btn-link:hover{
+        font-size: 30px;
+    }
+
+    .faqbody{
+        font-size: 25px;
     }
   }
+
+
+  
