@@ -1,0 +1,121 @@
+.tipsheading h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.tipsheading p {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.preparedness h2,
+.recovery h2 {
+    color: black;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.infographic p {
+    color: black;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.response {
+    background-color: #18191a;
+}
+
+.response h2 {
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.response p {
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.infographic img{
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+    .tipsheading h1 {
+        font-size: 1.5rem;
+    }
+
+    .tipsheading p,
+    .infographic p {
+        font-size: 0.875rem;
+    }
+
+    .preparedness h2,
+    .response h2,
+    .recovery h2 {
+        font-size: 20px;
+    }
+}
+
+/* 576px and up */
+@media (min-width: 576px) {
+    .tipsheading h1 {
+        font-size: 1.5rem;
+    }
+
+    .tipsheading p,
+    .infographic p {
+        font-size: 0.875rem;
+    }
+
+    .preparedness h2,
+    .response h2,
+    .recovery h2 {
+        font-size: 25px;
+    }
+    
+}
+  
+  
+@media (min-width: 768px) {
+    .tipsheading h1 {
+        font-size: 2.5rem;
+    }
+
+    .tipsheading p,
+    .infographic p {
+        font-size: 0.9375rem;
+    }
+
+    .preparedness h2,
+    .response h2,
+    .recovery h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 992px) { 
+    .tipsheading h1 {
+        font-size: 2.5rem;
+    }
+
+    .tipsheading p,
+    .infographic p {
+        font-size: 1rem;
+    }
+
+    .preparedness h2,
+    .response h2,
+    .recovery h2 {
+        font-size: 36px;
+    }
+
+  }
