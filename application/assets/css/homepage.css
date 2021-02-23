@@ -315,6 +315,13 @@
     font-weight: 400;
     background-color: #FFEA00;  
   }
+  .finpreviewitem .btn:hover{
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 400;
+    background-color: black;  
+  }
 
   .finpreviewitem p{
     padding-top: 30px;

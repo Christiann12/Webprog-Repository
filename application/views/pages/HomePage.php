@@ -190,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <p class="text-justify">
                         This is a short description of what the financial assistance feature is. By clicking the 'Go To Page' button, it will direct you to the financial assistance page that will show a complete detail of what it is.
                     </p>
-                    <button type="button" class="btn btn-lg">Go To Page</button>
+                    <button type="button" class="btn btn-lg" onclick="window.location.href='<?php echo base_url(); ?>main/index/financialassistance'">Go To Page</button>
                 </div>
                 <div class="col-12 col-lg-5 px-0 mx-0 finpreviewitem" style="background-color:red;">
                     <img src="<?php echo base_url(); ?>application/assets/images/financialpreview.png" alt="Service" class="w-100 h-100 border-rounded">

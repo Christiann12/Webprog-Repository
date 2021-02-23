@@ -42,6 +42,12 @@
   width: 15rem;
 }
 
+#sidebar-wrapper .list-group a:hover {
+  background-color: #FFEA00;
+  color: black;
+}
+
+
 #sidebar-wrapper .list-group .list-group-item{
   font-family: 'Inter';
 
@@ -60,8 +66,19 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-#page-content-wrapper .navbar span {
+
+#page-content-wrapper .nav-link:hover{
+  text-decoration: underline;
+}
+
+#page-content-wrapper .navbar button {
   color: black;
+}
+
+#page-content-wrapper .navbar button:hover {
+  
+  color: #FFEA00;
+  background-color: #18191a;
 }
 
 #wrapper.toggled #sidebar-wrapper {
