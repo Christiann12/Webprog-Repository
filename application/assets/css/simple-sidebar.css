@@ -4,11 +4,17 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 
+ /* 
+ #FFEA00 - yellow
+ #18191a - black
+  */
+
  #wrapper {
     overflow-x: hidden;
  }
 
 #sidebar-wrapper {
+  background-color:#18191a;
   min-height: 100vh;
   margin-left: -15rem;
   -webkit-transition: margin .25s ease-out;
@@ -22,12 +28,40 @@
   font-size: 1.2rem;
 }
 
+#sidebar-wrapper .sidebar-heading p{
+  font-family: 'Inter';
+  font-weight: 800;
+  color: #FFEA00;
+}
+#sidebar-wrapper .sidebar-heading img{
+  max-height: 6rem;
+  max-width: 6rem;
+}
+
 #sidebar-wrapper .list-group {
   width: 15rem;
 }
 
+#sidebar-wrapper .list-group .list-group-item{
+  font-family: 'Inter';
+
+  font-weight: 700;
+  font-size: .8rem;
+  color: #FFEA00;
+  background-color: black;
+}
+#sidebar-wrapper .svg-inline--fa {
+  font-size: .5rem;
+}
+
+
 #page-content-wrapper {
-  min-width: 100vw;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#page-content-wrapper .navbar span {
+  color: black;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -40,11 +74,14 @@
   }
 
   #page-content-wrapper {
-    min-width: 0;
+    
     width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+
 }
