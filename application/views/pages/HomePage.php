@@ -181,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- End of Meet our team Section -->
 
     <!-- Financial Assistance preview-->
-        <div class="container finpreview card px-0">
+        <div class="container finpreview card px-3000">
             <div class="row">
                 <div class="col-12 col-lg-7 px-3 py-3 px-md-5 py-md-5 px-lg-5 py-lg-5 finpreviewitem test">
                     <h1 class="text-sm-center text-md-center text-lg-left">

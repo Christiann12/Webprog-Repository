@@ -1,0 +1,149 @@
+/*Heading Title*/
+
+.FAheader h1
+{
+    color: #18191a;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Inter';
+}
+/*Company Card*/
+.companyPreview
+{
+    
+ margin-top: 50px;
+ margin-bottom: 100px;
+ background-color: #white;
+ box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+	.companyPreviewitem img
+	{
+ 	max-height: 600rem;
+	}
+
+	.companyPreviewitem p
+	{
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	display: inline-block;
+ 	color: #18191a;
+ 	font-family: 'Inter';
+ 	font-weight: 400;
+	}
+
+	.companyPreviewitem h1
+	{
+ 	font-size: 1.5rem;
+ 	display: inline-block;
+ 	color: #18191a;
+ 	font-family: 'Inter';
+ 	font-weight: 800;
+	}
+
+	.companyPreviewitem .btn1
+	{
+ 	color: #18191a;
+ 	font-family: 'Inter';
+ 	font-weight: 600;
+ 	background-color: #FFEA00;
+ 	margin-right: 110px;
+	}
+	.companyPreviewitem .btn1:hover
+	{
+ 	display: inline-block;
+ 	color: #FFEA00;
+ 	font-family: 'Inter';
+ 	font-weight: 400;
+ 	background-color: black;  
+	}
+
+	.companyPreviewitem .btn2
+	{
+ 	color: #18191a;
+ 	font-family: 'Inter';
+ 	font-weight: 600;
+ 	background-color: #FFEA00;
+ 	margin-right: 20px;
+	}
+
+	.companyPreviewitem .btn2:hover
+	{
+ 	display: inline-block;
+ 	color: #FFEA00;
+ 	font-family: 'Inter';
+ 	font-weight: 400;
+ 	background-color: black;  
+	}
+
+.companyPreview2
+{
+ margin-top: 50px;
+ margin-bottom: 100px;
+ background-color: #18191a;
+ box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+  .companyPreviewitem2 img
+  {
+    max-height: 600rem;
+  }
+
+  .companyPreviewitem2 p
+  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 400;
+  }
+
+  .companyPreviewitem2 h1
+  {
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+  }
+
+  .companyPreviewitem2 .btn1
+  {
+    font-color: #18191a;
+    font-family: 'Inter';
+    font-weight: 600;
+    background-color: #FFEA00;
+  	margin-right: 110px;
+  }
+  .companyPreviewitem2 .btn1:hover
+  {
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 400;
+    background-color: black;  
+  }
+
+  .companyPreviewitem2 .btn2
+  {
+    color: #18191a;
+    font-family: 'Inter';
+    font-weight: 600;
+    background-color: #FFEA00;
+  	margin-right: 20px;
+  }
+
+  .companyPreviewitem2 .btn2:hover
+  {
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 400;
+    background-color: black;  
+  }
+
+
+
+
