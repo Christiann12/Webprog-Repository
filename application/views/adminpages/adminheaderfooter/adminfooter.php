@@ -1,7 +1,10 @@
-  <!-- Bootstrap core JavaScript -->
-  <script src="<?php echo base_url(); ?>application/assets/js/jquery-3.5.1.min.js"></script>
-  <script src="<?php echo base_url(); ?>application/assets/js/bootstrap.min.js"></script>
-  <!-- Font Awesome -->
+  	<!-- jQuery -->
+	<script src="<?php echo base_url(); ?>application/assets/js/jquery-3.5.1.min.js"></script>
+	<!-- Bootstrap 4.5 JS -->
+	<script src="<?php echo base_url(); ?>application/assets/js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="<?php echo base_url(); ?>application/assets/js/popper.min.js"></script>
+	<!-- Font Awesome -->
 	<script src="<?php echo base_url(); ?>application/assets/js/all.min.js"></script>
   <!-- Menu Toggle Script -->
   <script>
