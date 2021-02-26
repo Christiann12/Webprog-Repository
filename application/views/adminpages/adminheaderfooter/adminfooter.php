@@ -6,6 +6,10 @@
 	<script src="<?php echo base_url(); ?>application/assets/js/popper.min.js"></script>
 	<!-- Font Awesome -->
 	<script src="<?php echo base_url(); ?>application/assets/js/all.min.js"></script>
+	
+	<!-- Transaction Admin Script --> 
+	<script src="<?php echo base_url(); ?>application/assets/js/transactionAdmin.js"></script>
+
   <!-- Menu Toggle Script -->
   <script>
     $("#menu-toggle").click(function(e) {
