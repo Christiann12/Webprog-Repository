@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 	The requirements/needs of the company goes here. 
             	</p>
             	<div class="row">
-            		<button type="button" class="btn1 btn-lg my-sm-0 my-md-4 my-lg-0" onclick="window.location.href='<?php echo base_url(); ?>main/index/####'">Website</button>
+            		<button type="button" class="btn1 btn-lg my-sm-0 my-md-0 my-lg-0" onclick="window.location.href='<?php echo base_url(); ?>main/index/####'">Website</button>
             		<button type="button" class="btn2  btn-lg"  onclick="window.location.href='<?php echo base_url(); ?>main/index/Transaction'">Go To Transactions</button>
             	</div>
             </div>
@@ -40,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 	The requirements/needs of the company goes here. 
             	</p>
             	<div class="row">
-            		<button type="button" class="btn1 btn-lg my-md-4 my-lg-0" onclick="window.location.href='<?php echo base_url(); ?>main/index/####'">
+            		<button type="button" class="btn1 btn-lg my-sm-0 my-md-0 my-lg-0" onclick="window.location.href='<?php echo base_url(); ?>main/index/####'">
             		Website
             		</button>
 
