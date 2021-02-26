@@ -1,0 +1,65 @@
+.supportbox
+{
+    background-color: #18191a;
+    height: 200px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: #FFEA00;
+    text-align: center;
+}
+.support h1{
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+.form-group label {
+    color: black;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: black;
+    border-width: 0px;
+}
+
+.btn:hover {
+    background-color: #18191a;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFEA00;
+    border-width: 0px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn:checked {
+    background-color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: black;
+    border-width: 0px;
+}
+input[type=text], input[type=email], input[type=number] {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+select {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.lead{
+    font-family:'Inter';
+    font-weight: 800;
+    color: gray;
+    text-align: center;
+}
+.header {
+    font-family:'Inter';
+    font-weight: 800;
+    color: #FFEA00;
+}
