@@ -9,6 +9,7 @@
 	
 	<!-- Transaction Admin Script --> 
 	<script src="<?php echo base_url(); ?>application/assets/js/transactionAdmin.js"></script>
+	<script src="<?php echo base_url(); ?>application/assets/js/adminheader.js"></script>
 
   <!-- Menu Toggle Script -->
   <script>

@@ -95,9 +95,15 @@ body {
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
   z-index: 1;
 }
-
+.list .nav-item .active{
+  color: white !important;
+  font-size: 20px !important;
+  font-family: 'Inter' !important;
+  font-weight: 800 !important;
+}
 #navbarResponsive ul li a{
   color: black;
+  font-size: 17px;
   font-family: 'Inter';
   font-weight: 800;
   padding-left: 2rem;
