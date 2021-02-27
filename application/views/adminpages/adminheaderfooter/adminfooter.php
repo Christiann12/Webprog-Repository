@@ -11,6 +11,15 @@
 	<script src="<?php echo base_url(); ?>application/assets/js/transactionAdmin.js"></script>
 	<script src="<?php echo base_url(); ?>application/assets/js/adminheader.js"></script>
 
+	<!-- Chart.js --> 
+	<script src="<?php echo base_url(); ?>application/assets/js/Chart.bundle.js"></script>
+	<script src="<?php echo base_url(); ?>application/assets/js/Chart.bundle.min.js"></script>
+	<script src="<?php echo base_url(); ?>application/assets/js/Chart.js"></script>
+	<script src="<?php echo base_url(); ?>application/assets/js/Chart.min.js"></script>
+
+	<!-- Dashboard Admin Script -->
+	<script src="<?php echo base_url(); ?>application/assets/js/dashboardAdmin.js"></script>
+
   <!-- Menu Toggle Script -->
   <script>
     $("#menu-toggle").click(function(e) {
