@@ -12,10 +12,10 @@
     </div>
     <div class="list-group list-group-flush">
     
-        <a href="<?php echo base_url(); ?>admin/index/dashboard/true" class="list-group-item list-group-item-action mt-1">Dashboard <i class="fas fa-chevron-right float-right"></i> </a>
-        <a href="<?php echo base_url(); ?>admin/index/transactionadmin/true" class="list-group-item list-group-item-action mt-1">Transactions  <i class="fas fa-chevron-right float-right"></i></a>
-        <a href="<?php echo base_url(); ?>admin/index/pingadmin/true" class="list-group-item list-group-item-action mt-1">Pings <i class="fas fa-chevron-right float-right"></i></a>
-        <a href="<?php echo base_url(); ?>admin/index/supportadmin/true" class="list-group-item list-group-item-action mt-1">Support <i class="fas fa-chevron-right float-right"></i></a>
+        <a href="<?php echo base_url(); ?>admin/index/dashboard/true" class="list-group-item list-group-item-action mt-1 active" onclick="setActiveAdmin(1)" id="elementadmin1">Dashboard <i class="fas fa-chevron-right float-right"></i> </a>
+        <a href="<?php echo base_url(); ?>admin/index/transactionadmin/true" class="list-group-item list-group-item-action mt-1" onclick="setActiveAdmin(2)" id="elementadmin2">Transactions  <i class="fas fa-chevron-right float-right"></i></a>
+        <a href="<?php echo base_url(); ?>admin/index/pingadmin/true" class="list-group-item list-group-item-action mt-1" onclick="setActiveAdmin(3)" id="elementadmin3">Pings <i class="fas fa-chevron-right float-right"></i></a>
+        <a href="<?php echo base_url(); ?>admin/index/supportadmin/true" class="list-group-item list-group-item-action mt-1" onclick="setActiveAdmin(4)" id="elementadmin4">Support <i class="fas fa-chevron-right float-right"></i></a>
     </div>
     </div>
     <!-- /#sidebar-wrapper -->

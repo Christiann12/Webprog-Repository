@@ -57,14 +57,14 @@
 
 			<div class="collapse navbar-collapse " id="navbarResponsive">
 				
-				<ul class="navbar-nav nav-fill w-100">
-				<li class="nav-item"><a href="<?php echo base_url() ?>main/index/HomePage" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/FAQ" class="nav-link">FAQs</a></li>
-					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/FinancialAssistance" class="nav-link">Financial Assistance</a></li>
-					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Ping" class="nav-link">Ping</a></li>
-					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Transaction" class="nav-link">Transaction</a></li>
-					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Tips" class="nav-link">Tips</a></li>
-					<li class="nav-item"><a href="<?php echo base_url() ?>main/index/Support" class="nav-link">Support</a></li>
+				<ul class="navbar-nav nav-fill w-100 list">
+					<li class="nav-item"  onclick="setActive(1)"><a href="<?php echo base_url() ?>main/index/HomePage" class="nav-link" id="element1">Home</a></li>
+					<li class="nav-item"  onclick="setActive(2)"><a href="<?php echo base_url() ?>main/index/FAQ" class="nav-link" id="element2">FAQs</a></li>
+					<li class="nav-item" onclick="setActive(3)"><a href="<?php echo base_url() ?>main/index/FinancialAssistance" class="nav-link" id="element3">Financial Assistance</a></li>
+					<li class="nav-item" onclick="setActive(4)"><a href="<?php echo base_url() ?>main/index/Ping" class="nav-link" id="element4">Ping</a></li>
+					<li class="nav-item" onclick="setActive(5)"><a href="<?php echo base_url() ?>main/index/Transaction" class="nav-link" id="element5">Transaction</a></li>
+					<li class="nav-item" onclick="setActive(6)"><a href="<?php echo base_url() ?>main/index/Tips" class="nav-link" id="element6">Tips</a></li>
+					<li class="nav-item" onclick="setActive(7)"><a href="<?php echo base_url() ?>main/index/Support" class="nav-link" id="element7">Support</a></li>
 				</ul>
 			</div>
 		</div>

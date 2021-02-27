@@ -47,6 +47,11 @@
   color: black;
 }
 
+#sidebar-wrapper .list-group .active{
+  background-color: #FFEA00 !important;
+  color: black !important;
+}
+
 
 #sidebar-wrapper .list-group .list-group-item{
   font-family: 'Inter';
@@ -80,6 +85,7 @@
   color: #FFEA00;
   background-color: #18191a;
 }
+
 
 #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
