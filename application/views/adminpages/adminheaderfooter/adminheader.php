@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/simple-sidebar.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/transactionAdminStyle.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/dashboardAdminStyle.css">
 
 </head>
 
