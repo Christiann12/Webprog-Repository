@@ -14,136 +14,217 @@
     
  margin-top: 50px;
  margin-bottom: 100px;
- background-color: #white;
  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
 }
 
 	.companyPreviewitem img
 	{
- 	max-height: 600rem;
+ 	max-height: 38rem;
 	}
+
+  .companyPreviewitem h1
+  {
+  font-size: 1.5rem;
+  font-family: 'Inter';
+  font-weight: 800;
+  }
 
 	.companyPreviewitem p
 	{
- 	padding-top: 30px;
- 	padding-bottom: 30px;
- 	display: inline-block;
- 	color: #18191a;
  	font-family: 'Inter';
  	font-weight: 400;
 	}
 
-	.companyPreviewitem h1
+	.FAbtn1
 	{
- 	font-size: 1.5rem;
- 	display: inline-block;
- 	color: #18191a;
  	font-family: 'Inter';
+  font-size: 1.20rem;
+  color: #18191a;
  	font-weight: 800;
+  background-color: #FFEA00;
+  margin-right: 150px;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 0.3rem;
 	}
 
-	.companyPreviewitem .btn1
-	{
- 	color: #18191a;
- 	font-family: 'Inter';
- 	font-weight: 600;
- 	background-color: #FFEA00;
- 	margin-right: 110px;
-	}
-	.companyPreviewitem .btn1:hover
+	.FAbtn1:hover
 	{
  	display: inline-block;
- 	color: #FFEA00;
+  color: #FFEA00;
  	font-family: 'Inter';
- 	font-weight: 400;
- 	background-color: black;  
+ 	font-weight: 800;  
+  background-color: #18191a;
 	}
 
-	.companyPreviewitem .btn2
-	{
- 	color: #18191a;
- 	font-family: 'Inter';
- 	font-weight: 600;
- 	background-color: #FFEA00;
- 	margin-right: 20px;
-	}
+  .FAbtn2
+  {
+  font-family: 'Inter';
+  font-size: 1.20rem;
+  color: #18191a;
+  font-weight: 800;
+  background-color: #FFEA00;
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.20rem; 
+  border-radius: 0.3rem;
+  }
 
-	.companyPreviewitem .btn2:hover
-	{
- 	display: inline-block;
- 	color: #FFEA00;
- 	font-family: 'Inter';
- 	font-weight: 400;
- 	background-color: black;  
-	}
+  .FAbtn2:hover
+  {
+  display: inline-block;
+  color: #FFEA00;
+  font-family: 'Inter';
+  font-weight: 800;  
+  background-color: #18191a;
+  }
 
-.companyPreview2
-{
- margin-top: 50px;
- margin-bottom: 100px;
- background-color: #18191a;
- box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+
+/* Media Query */
+
+
+/* Smallest - Supersmall (500-569) */
+@media (min-width: 500px) {
+
+  .FAbtn1 {
+  margin-right: 60px;
+
+  }
+
+  .companyPreviewitem h1
+  { 
+  text-align: center;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 30px; 
+  }
+
+
+@media (min-width: 514px) {
+
+  .FAbtn1 {
+  margin-right: 74px;
+
+  }
+
+  .companyPreviewitem h1
+  { 
+  text-align: center;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 34px; 
+  }
 }
 
-  .companyPreviewitem2 img
-  {
-    max-height: 600rem;
+
+@media (min-width: 528px) {
+
+  .FAbtn1 {
+  margin-right: 88px;
+
   }
 
-  .companyPreviewitem2 p
-  {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: inline-block;
-    color: #FFEA00;
-    font-family: 'Inter';
-    font-weight: 400;
+  .companyPreviewitem h1
+  { 
+  text-align: center;
   }
 
-  .companyPreviewitem2 h1
+  .companyPreviewitem p
   {
-    font-size: 1.5rem;
-    display: inline-block;
-    color: #FFEA00;
-    font-family: 'Inter';
-    font-weight: 800;
+  margin-bottom: 38px; 
+  }
+}
+
+
+@media (min-width: 542px) {
+
+  .FAbtn1 {
+  margin-right: 102px;
+
   }
 
-  .companyPreviewitem2 .btn1
-  {
-    font-color: #18191a;
-    font-family: 'Inter';
-    font-weight: 600;
-    background-color: #FFEA00;
-  	margin-right: 110px;
-  }
-  .companyPreviewitem2 .btn1:hover
-  {
-    display: inline-block;
-    color: #FFEA00;
-    font-family: 'Inter';
-    font-weight: 400;
-    background-color: black;  
+  .companyPreviewitem h1
+  { 
+  text-align: center;
   }
 
-  .companyPreviewitem2 .btn2
+  .companyPreviewitem p
   {
-    color: #18191a;
-    font-family: 'Inter';
-    font-weight: 600;
-    background-color: #FFEA00;
-  	margin-right: 20px;
+  margin-bottom: 42px; 
+  }
+}
+
+
+/* Small */
+@media (min-width: 556px) {
+
+  .FAbtn1 {
+  margin-right: 116px;
+
   }
 
-  .companyPreviewitem2 .btn2:hover
-  {
-    display: inline-block;
-    color: #FFEA00;
-    font-family: 'Inter';
-    font-weight: 400;
-    background-color: black;  
+  .companyPreviewitem h1
+  { 
+  text-align: center;
   }
 
+  .companyPreviewitem p
+  {
+  margin-bottom: 46px; 
+  }
+}
 
 
+/* Medium */
+@media (min-width: 765px) {
+  .FAbtn1 {
+    margin-right: 238px;
+  }
 
+  .companyPreviewitem h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 30px; 
+  }
+}
+
+
+/* Med-Large*/
+@media (min-width: 990px) {
+  .FAbtn1 {
+    margin-right: 78px
+  }
+
+  .companyPreviewitem h1 {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  }
+
+}
+
+
+/* Large */
+@media (min-width: 1201px) {
+  .FAbtn1 {
+    margin-right: 183px;
+  }
+
+  .companyPreviewitem h1 {
+    text-align: left;
+  }
+}
