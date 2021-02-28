@@ -1,0 +1,682 @@
+.ping
+{
+    border: none !important;
+}
+
+.ping-card
+{
+    border: none !important;
+}
+
+.pinghow
+{
+    border: none !important;
+}
+
+.pingimgbtn
+{
+    border: none !important;
+}
+
+.ping
+{
+    margin-top: none !important;
+    border: none !important;
+}
+
+.ping img
+{
+    border-radius: 100%;
+    float: right;
+    height: 400px;
+    width:400px;
+    transition: .2s all ease;
+    top: 50%;
+    right: 50%;
+}
+
+.ping:hover img
+{
+    transform: scale(.9);
+}
+
+.ping h1
+{
+    color: black;
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 10%;
+    position: left;
+}
+
+.pinghow h1
+{
+    color: black;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 50px;
+    position: center;
+}
+
+.ping h5
+{
+    color: black;
+    text-align: justify;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 25px;
+    text-indent: 20px;
+    margin-left: 5px ;
+}
+
+.pinghow .row  .first-column
+{
+  background: white;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.pinghow .row  .first-column h2
+{
+    color: black;
+    text-align: left;
+    font-family: 'Inter';
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pinghow .row  .first-column h5
+{
+    color: black;
+    text-align: justify;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+.pinghow .row  .second-column
+{
+  background:  #18191a;
+  height: 300px;
+  margin-top: 20px;
+  transition: transform .2s;
+}
+
+.pinghow .row  .second-column h2
+{
+    color: #FFEA00;
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pinghow .row  .second-column h5
+{
+    color:  #FFEA00;
+    text-align: justify;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+.pinghow .row  .third-column
+{
+  background:  #18191a;
+  height: 300px;
+}
+
+.pinghow .row  .third-column h2
+{
+    color: #FFEA00;
+    text-align: left;
+    font-family: 'Inter';
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pinghow .row  .third-column h5
+{
+    color:  #FFEA00;
+    text-align: justify;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+.pinghow .row  .fourth-column
+{
+  background: white;
+  height: 300px;
+}
+
+.pinghow .row  .fourth-column h2
+{
+    color: black;
+    text-align: left;
+    font-family: 'Inter';
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pinghow .row  .fourth-column h5
+{
+    color: black;
+    text-align: justify;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+.pingimgbtn h1{
+    color: #FFEA00;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pingimgbtn{
+    position: relative;
+    width: 100%;
+}
+.pingimgbtn img
+{
+    height: 600px;
+    width: 1500px;
+    filter: brightness(40%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s;
+}
+
+.pingimgbtn img:hover{
+    transform: scale(1.1)
+}
+
+.pingimgbtn .img-btn{
+    color: #18191a;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FFEA00;
+    position: absolute;
+    float: center;  
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+  }
+  .pingimgbtn .img-btn:hover{
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+    background-color: black;  
+    border: #FFEA00;
+  }
+
+  .modal-header{
+      background-color: #FFEA00;
+  }
+  .modal-header h5{
+    color: black;
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center !important;
+  }
+
+  .modal-header .close{
+    font-size: 30px;
+  }
+
+  .modal-body .company h6{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    color:black;
+    position: center !important;
+  }
+
+  .modal-body .email h6{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    color:black;
+  }
+
+
+
+  .modal-footer .proceed-btn{
+    color: #18191a;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #FFEA00;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: none !important;
+    transition: transform .2s;
+}
+ .modal-footer .proceed-btn:hover{
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+    background-color: black;  
+    border: #FFEA00;
+    transform: scale(1.1);
+    border: none !important;
+}
+
+.modal-footer .cancel-btn{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #e14646;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    transition: transform .2s;
+    border: none !important;
+}
+
+.modal-footer .cancel-btn:hover{
+    transform: scale(1.1);
+    background-color: #ff1414;
+    color: white;
+    border: none !important;
+}
+
+
+  /* 576px and below */
+@media (max-width: 576px) {
+    .ping h1{
+        font-size: 29px;
+    }
+
+    .ping h5{
+        font-size: 18px;
+    }
+
+    .pinghow h1
+    {
+        font-size: 35px;
+    }
+
+    .pinghow .row  .first-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .second-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .third-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .fourth-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .first-column h5{
+        font-size: 14px;
+    }
+
+    .pinghow .row  .second-column h5{
+        font-size:  14px;
+    }
+
+    .pinghow .row  .third-column h5{
+        font-size: 14px;
+    }
+
+    .pinghow .row  .fourth-column h5{
+        font-size: 14px;
+    }
+
+    .pinghow .row  .first-column
+    {
+        height: 150px;
+    }
+
+    .pinghow .row  .second-column
+    {
+        height: 150px;
+    }
+
+    .pinghow .row  .third-column
+    {
+        height: 150px;
+    }
+
+    .pinghow .row  .fourth-column
+    {
+        height: 150px;
+    }
+
+    .pingimgbtn img
+    {
+        height: 220px;
+        width: 900px;
+    }
+
+    .pingimgbtn h1
+    {
+        font-size: 25px;
+    }
+
+    .pingimgbtn .img-btn{
+        font-size: 16px;
+        height: 30px;
+        width: 90px;
+      }
+
+}
+
+/* 576px and up */
+@media (min-width: 576px){
+    .ping h1{
+        font-size: 30px;
+    }
+
+    .ping h5{
+        font-size: 20px;
+    }
+
+    .pinghow h1
+    {
+        font-size: 35px;
+    }
+
+    .pinghow .row  .first-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .second-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .third-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .fourth-column h2
+    {
+        font-size: 20px;
+    }
+
+    .pinghow .row  .first-column h5{
+        font-size: 16px;
+    }
+
+    .pinghow .row  .second-column h5{
+        font-size: 16px;
+    }
+
+    .pinghow .row  .third-column h5{
+        font-size: 16px;
+    }
+
+    .pinghow .row  .fourth-column h5{
+        font-size: 16px;
+    }
+
+    .pinghow .row  .first-column
+    {
+        height: 200px;
+    }
+
+    .pinghow .row  .second-column
+    {
+        height: 200px;
+    }
+
+    .pinghow .row  .third-column
+    {
+        height: 200px;
+    }
+
+    .pinghow .row  .fourth-column
+    {
+        height: 200px;
+    }
+
+    .pingimgbtn img
+    {
+        height: 200px;
+        width: 900px;
+    }
+
+    .pingimgbtn h1
+    {
+        font-size: 30px;
+    }
+
+    .pingimgbtn .img-btn{
+        height: 40px;
+        width: 100px;
+        font-size: 18px;
+      }
+
+}
+  
+  
+@media (min-width: 768px) 
+{
+    .ping h1{
+        font-size: 32px;
+    }
+
+    .ping h5{
+        font-size: 22px;
+    }
+
+    .pinghow h1
+    {
+        font-size: 40px;
+    }
+
+    .pinghow .row  .first-column h2
+    {
+        font-size: 30px;
+    }
+
+    .pinghow .row  .second-column h2
+    {
+        font-size: 25px;
+    }
+
+    .pinghow .row  .third-column h2
+    {
+        font-size: 25px;
+    }
+
+    .pinghow .row  .fourth-column h2
+    {
+        font-size: 25px;
+    }
+
+    .pinghow .row  .first-column h5{
+        font-size: 18px;
+    }
+
+    .pinghow .row  .second-column h5{
+        font-size: 18px;
+    }
+
+    .pinghow .row  .third-column h5{
+        font-size: 18px;
+    }
+
+    .pinghow .row  .fourth-column h5{
+        font-size: 18px;
+    }
+
+    .pinghow .row  .first-column
+    {
+        height: 250px;
+    }
+
+    .pinghow .row  .second-column
+    {
+        height: 250px;
+    }
+
+    .pinghow .row  .third-column
+    {
+        height: 250px;
+    }
+
+    .pinghow .row  .fourth-column
+    {
+        height: 250px;
+    }
+
+    .pingimgbtn img
+    {
+        height: 350px;
+        width: 1200px;
+    }
+
+    .pingimgbtn h1
+    {
+        font-size: 40px;
+    }
+
+    .pingimgbtn .img-btn{
+        height: 40px;
+        width: 120px;
+        font-size: 20px;
+      }
+}
+
+@media (min-width: 992px) 
+{ 
+    .ping h1{
+        font-size: 50px;
+    }
+
+    .ping h5{
+        font-size: 25px;
+    }
+
+    .pinghow h1
+    {
+        font-size: 50px;
+    }
+
+    .pinghow .row  .first-column
+    {
+        height: 300px;
+    }
+
+    .pinghow .row  .first-column h2
+    {
+        font-size: 30px;
+    }
+
+    .pinghow .row  .second-column h2
+    {
+        font-size: 30px;
+    }
+
+    .pinghow .row  .third-column h2
+    {
+        font-size: 30px;
+    }
+
+    .pinghow .row  .fourth-column h2
+    {
+        font-size: 30px;
+    }
+
+    .pinghow .row  .first-column h5{
+        font-size: 20px;
+    }
+
+    .pinghow .row  .second-column h5{
+        font-size: 20px;
+    }
+
+    .pinghow .row  .third-column h5{
+        font-size: 20px;
+    }
+
+    .pinghow .row  .fourth-column h5{
+        font-size: 20px;
+    }
+
+    .pinghow .row  .second-column
+    {
+        height: 300px;
+    }
+
+    .pinghow .row  .third-column
+    {
+        height: 300px;
+    }
+    
+    .pinghow .row  .fourth-column
+    {
+        height: 300px;
+    }
+
+    .pingimgbtn img
+    {
+        height: 500px;
+        width: 1400px;
+    }
+
+    .pingimgbtn h1
+    {
+        font-size: 50px;
+    }
+
+    .pingimgbtn h1{
+        font-size: 50px;   
+    }
+
+    .pingimgbtn .imgbtn .img-btn{
+        font-size: 20px;
+    }
+}
+
+
+  
