@@ -5,13 +5,13 @@
 			<div class="col-12 col-sm-6 col-md-4 col-lg-4 left">
 				<p class="pt-2 titlePar">Navigate to:</p>
 				<ul class="navigation pt-3">
-					<li><a href="<?php echo base_url() ?>main/index/HomePage" class="navFooter">Home</a></li>
-					<li><a href="<?php echo base_url() ?>main/index/FAQ" class="navFooter">FAQs</a></li>
-					<li><a href="<?php echo base_url() ?>main/index/FinancialAssistance" class="navFooter">Financial Assistance</a></li>
-					<li><a href="<?php echo base_url() ?>main/index/Ping" class="navFooter">Ping</a></li>
-					<li><a href="<?php echo base_url() ?>main/index/Transaction" class="navFooter">Transaction</a></li>
-					<li><a href="<?php echo base_url() ?>main/index/Tips" class="navFooter">Tips</a></li>
-					<li><a href="<?php echo base_url() ?>main/index/Support" class="navFooter">Support</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/HomePage" class="navFooter" onclick="setActive(1)">Home</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/FAQ" class="navFooter" onclick="setActive(2)">FAQs</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/FinancialAssistance" class="navFooter" onclick="setActive(3)">Financial Assistance</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Ping" class="navFooter" onclick="setActive(4)">Ping</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Transaction" class="navFooter" onclick="setActive(5)">Transaction</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Tips" class="navFooter" onclick="setActive(6)">Tips</a></li>
+					<li><a href="<?php echo base_url() ?>main/index/Support" class="navFooter" onclick="setActive(7)">Support</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-4 mid">
@@ -44,5 +44,6 @@
 	<script src="<?php echo base_url(); ?>application/assets/js/all.min.js"></script>
 	<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script> -->
 	<script src="<?php echo base_url(); ?>application/assets/js/transaction.js"></script>
+	<script src="<?php echo base_url(); ?>application/assets/js/header.js"></script>
 </body>
 </html>
