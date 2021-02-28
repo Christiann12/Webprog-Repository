@@ -79,12 +79,6 @@
   margin-top: 20px;
 }
 
-.pinghow .row .first-column:hover
-{
-    background-color: #FFEA00;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
-}
-
 .pinghow .row  .first-column h2
 {
     color: black;
@@ -135,11 +129,6 @@
     text-indent: 20px;
 }
 
-.pinghow .row .second-column:hover
-{
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
-}
-
 .pinghow .row  .third-column
 {
   background:  #18191a;
@@ -167,11 +156,6 @@
     text-indent: 20px;
 }
 
-.pinghow .row .third-column:hover
-{
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
-}
-
 .pinghow .row  .fourth-column
 {
   background: white;
@@ -197,12 +181,6 @@
     font-size: 20px;
     margin-top: 20px;
     text-indent: 20px;
-}
-
-.pinghow .row .fourth-column:hover
-{
-    background-color: #FFEA00;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
 }
 
 .pingimgbtn h1{
@@ -260,6 +238,83 @@
     background-color: black;  
     border: #FFEA00;
   }
+
+  .modal-header{
+      background-color: #FFEA00;
+  }
+  .modal-header h5{
+    color: black;
+    text-align: left;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center !important;
+  }
+
+  .modal-header .close{
+    font-size: 30px;
+  }
+
+  .modal-body .company h6{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    color:black;
+    position: center !important;
+  }
+
+  .modal-body .email h6{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    color:black;
+  }
+
+
+
+  .modal-footer .proceed-btn{
+    color: #18191a;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #FFEA00;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: none !important;
+    transition: transform .2s;
+}
+ .modal-footer .proceed-btn:hover{
+    display: inline-block;
+    color: #FFEA00;
+    font-family: 'Inter';
+    font-weight: 800;
+    background-color: black;  
+    border: #FFEA00;
+    transform: scale(1.1);
+    border: none !important;
+}
+
+.modal-footer .cancel-btn{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #e14646;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    transition: transform .2s;
+    border: none !important;
+}
+
+.modal-footer .cancel-btn:hover{
+    transform: scale(1.1);
+    background-color: #ff1414;
+    color: white;
+    border: none !important;
+}
 
 
   /* 576px and below */
