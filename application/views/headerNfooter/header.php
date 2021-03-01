@@ -14,9 +14,12 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/transactionStyle.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/faqs.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/tipsStyle.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/ping.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/tipsStyle.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/support.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/ping.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/FAStyle.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/FAStyle.css">
+<!--  issue 37 conflict resolve  -->
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto&display=swap" rel="stylesheet">
 </head>
