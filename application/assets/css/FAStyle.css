@@ -1,0 +1,230 @@
+/*Heading Title*/
+
+.FAheader h1
+{
+    color: #18191a;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Inter';
+}
+/*Company Card*/
+.companyPreview
+{
+    
+ margin-top: 50px;
+ margin-bottom: 100px;
+ box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+	.companyPreviewitem img
+	{
+ 	max-height: 38rem;
+	}
+
+  .companyPreviewitem h1
+  {
+  font-size: 1.5rem;
+  font-family: 'Inter';
+  font-weight: 800;
+  }
+
+	.companyPreviewitem p
+	{
+ 	font-family: 'Inter';
+ 	font-weight: 400;
+	}
+
+	.FAbtn1
+	{
+ 	font-family: 'Inter';
+  font-size: 1.20rem;
+  color: #18191a;
+ 	font-weight: 800;
+  background-color: #FFEA00;
+  margin-right: 150px;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 0.3rem;
+	}
+
+	.FAbtn1:hover
+	{
+ 	display: inline-block;
+  color: #FFEA00;
+ 	font-family: 'Inter';
+ 	font-weight: 800;  
+  background-color: #18191a;
+	}
+
+  .FAbtn2
+  {
+  font-family: 'Inter';
+  font-size: 1.20rem;
+  color: #18191a;
+  font-weight: 800;
+  background-color: #FFEA00;
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.20rem; 
+  border-radius: 0.3rem;
+  }
+
+  .FAbtn2:hover
+  {
+  display: inline-block;
+  color: #FFEA00;
+  font-family: 'Inter';
+  font-weight: 800;  
+  background-color: #18191a;
+  }
+
+
+/* Media Query */
+
+
+/* Smallest - Supersmall (500-569) */
+@media (min-width: 500px) {
+
+  .FAbtn1 {
+  margin-right: 60px;
+
+  }
+
+  .companyPreviewitem h1
+  { 
+  text-align: center;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 30px; 
+  }
+
+
+@media (min-width: 514px) {
+
+  .FAbtn1 {
+  margin-right: 74px;
+
+  }
+
+  .companyPreviewitem h1
+  { 
+  text-align: center;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 34px; 
+  }
+}
+
+
+@media (min-width: 528px) {
+
+  .FAbtn1 {
+  margin-right: 88px;
+
+  }
+
+  .companyPreviewitem h1
+  { 
+  text-align: center;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 38px; 
+  }
+}
+
+
+@media (min-width: 542px) {
+
+  .FAbtn1 {
+  margin-right: 102px;
+
+  }
+
+  .companyPreviewitem h1
+  { 
+  text-align: center;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 42px; 
+  }
+}
+
+
+/* Small */
+@media (min-width: 556px) {
+
+  .FAbtn1 {
+  margin-right: 116px;
+
+  }
+
+  .companyPreviewitem h1
+  { 
+  text-align: center;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 46px; 
+  }
+}
+
+
+/* Medium */
+@media (min-width: 765px) {
+  .FAbtn1 {
+    margin-right: 238px;
+  }
+
+  .companyPreviewitem h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-bottom: 30px; 
+  }
+}
+
+
+/* Med-Large*/
+@media (min-width: 990px) {
+  .FAbtn1 {
+    margin-right: 78px
+  }
+
+  .companyPreviewitem h1 {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .companyPreviewitem p
+  {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  }
+
+}
+
+
+/* Large */
+@media (min-width: 1201px) {
+  .FAbtn1 {
+    margin-right: 183px;
+  }
+
+  .companyPreviewitem h1 {
+    text-align: left;
+  }
+}
