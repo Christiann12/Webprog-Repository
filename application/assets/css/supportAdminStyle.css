@@ -1,0 +1,59 @@
+/* Header style */
+.suppheader h1 
+{
+	font-family: 'Inter';
+    font-weight: 800;
+    color: black;
+}
+
+.suppheader p 
+{
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #7d7d7d;
+}
+
+/* Table style */
+.table .thead-odms th {
+    color: #ffea00;
+    background-color: #212529;
+    border-color: #32383e;
+}
+
+/* Media Query */
+@media (max-width: 576px) {
+    .suppheader h1 {
+        font-size: 1.5rem;
+    }
+
+    .suppheader p {
+        font-size: 0.875rem;
+    }
+
+/* 576px and up */
+@media (min-width: 576px) {
+    .suppheader h1 {
+        font-size: 1.5rem;
+    }
+
+    .suppheader p {
+        font-size: 0.875rem;
+    }
+  
+@media (min-width: 768px) {
+    .suppheader h1 {
+        font-size: 2.5rem;
+    }
+
+    .suppheader p {
+        font-size: 0.9375rem;
+    }
+
+@media (min-width: 992px) { 
+    .suppheader h1 {
+        font-size: 2.5rem;
+    }
+
+    .suppheader p {
+        font-size: 1rem;
+    }
