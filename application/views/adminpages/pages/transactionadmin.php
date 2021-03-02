@@ -1,5 +1,7 @@
 <!-- Page content -->
 <div class="container-fluid my-5 px-4 py-4 rounded-lg bg-light">
+
+
     <div class="row">
         <!-- Transaction heading -->
         <div class="transheading col-sm-6">
@@ -28,71 +30,50 @@
                     <th scope="col">Amount</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Tony Stark</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 1</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Peter Parker</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 2</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Wanda Maximoff </td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 3</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>Diana Prince</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 4</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>Max Caulfield</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 5</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td>Bucky Barnes</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 6</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">7</th>
-                    <td>Steve Rogers</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 7</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">8</th>
-                    <td>Loki Laufeyson</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Service 8</td>
-                    <td>XXXXXX</td>
-                </tr>
+            <tbody id="tbody">
+            <script>
+                 var temp =  localStorage.getItem('transactioncountservice');
+                
+                    for (var i = 0; i <= temp; i++){
+                        
+                    var table1 =  document.getElementById('tbody');
+                   
+                    
+                    var tr = document.createElement('tr');
+                    var th1 = document.createElement('th');
+                    var td1 = document.createElement('td');
+                    var td2 = document.createElement('td');
+                    var td3 = document.createElement('td');
+                    var td4 = document.createElement('td');
+                    var td5 = document.createElement('td');
+
+                        var th1text = document.createTextNode(""+(i+1));
+                        var td1text = document.createTextNode('Test Value');
+                        var td2text = document.createTextNode('Test Value');
+                        var td3text = document.createTextNode('Test Value');
+                        var td4text = document.createTextNode('Test Value');
+                        var td5text = document.createTextNode('Test Value');
+
+                    th1.appendChild(th1text);
+                    td1.appendChild(td1text);
+                    td2.appendChild(td2text);
+                    td3.appendChild(td3text);
+                    td4.appendChild(td4text);
+                    td5.appendChild(td5text);
+
+                    tr.appendChild(th1);
+                    tr.appendChild(td1);
+                    tr.appendChild(td2);
+                    tr.appendChild(td3);
+                    tr.appendChild(td4);
+                    tr.appendChild(td5);
+                    
+
+                    table1.appendChild(tr);
+                    }
+                    
+                </script>
+                
             </tbody>
         </table>
     </div>
@@ -110,71 +91,49 @@
                     <th scope="col">Amount</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Tony Stark</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 1</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Peter Parker</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 2</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Wanda Maximoff </td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 3</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>Diana Prince</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 4</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>Max Caulfield</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 5</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td>Bucky Barnes</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 6</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">7</th>
-                    <td>Steve Rogers</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 7</td>
-                    <td>XXXXXX</td>
-                </tr>
-                <tr>
-                    <th scope="row">8</th>
-                    <td>Loki Laufeyson</td>
-                    <td>Company</td>
-                    <td>company@domain.com</td>
-                    <td>Product 8</td>
-                    <td>XXXXXX</td>
-                </tr>
+            <tbody id="tbody1">
+            <script>
+                 var temp =  localStorage.getItem('transactioncountproduct');
+                
+                    for (var i = 0; i <= temp; i++){
+                        
+                        var table2 = document.getElementById('tbody1');
+                    
+                        
+                        var tr = document.createElement('tr');
+                        var th1 = document.createElement('th');
+                        var td1 = document.createElement('td');
+                        var td2 = document.createElement('td');
+                        var td3 = document.createElement('td');
+                        var td4 = document.createElement('td');
+                        var td5 = document.createElement('td');
+
+                        var th1text = document.createTextNode(""+(i+1));
+                        var td1text = document.createTextNode('Test Value');
+                        var td2text = document.createTextNode('Test Value');
+                        var td3text = document.createTextNode('Test Value');
+                        var td4text = document.createTextNode('Test Value');
+                        var td5text = document.createTextNode('Test Value');
+
+                        th1.appendChild(th1text);
+                        td1.appendChild(td1text);
+                        td2.appendChild(td2text);
+                        td3.appendChild(td3text);
+                        td4.appendChild(td4text);
+                        td5.appendChild(td5text);
+
+                        tr.appendChild(th1);
+                        tr.appendChild(td1);
+                        tr.appendChild(td2);
+                        tr.appendChild(td3);
+                        tr.appendChild(td4);
+                        tr.appendChild(td5);
+                        
+
+                        table2.appendChild(tr);
+                    }
+                    
+                </script>
             </tbody>
         </table>
     </div>
