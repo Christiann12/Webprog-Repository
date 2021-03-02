@@ -189,7 +189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</fieldset>
 							<div class="col-12">
 								<center>
-									<button type="submit" class="btn btn-primary">Submit Form</button>
+									<button type="submit" class="btn btn-primary" onclick="addTransactionService()" >Submit Form</button>
 								</center>
 							</div>
 						</div>
@@ -373,7 +373,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</fieldset>
 							<div class="col-12">
 								<center>
-									<button type="submit" class="btn btn-primary">Submit Form</button>
+									<button type="submit" class="btn btn-primary" onclick="addTransactionProduct()" >Submit Form</button>
 								</center>
 							</div>
 						</div>

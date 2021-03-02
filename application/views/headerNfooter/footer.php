@@ -45,5 +45,6 @@
 	<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script> -->
 	<script src="<?php echo base_url(); ?>application/assets/js/transaction.js"></script>
 	<script src="<?php echo base_url(); ?>application/assets/js/header.js"></script>
+	<script src="<?php echo base_url(); ?>application/assets/js/addtransaction.js"></script>
 </body>
 </html>
