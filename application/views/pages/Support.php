@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="col-12">
         <center>
-            <button type="submit" class="btn btn-primary">Submit Form</button>
+            <button type="submit" class="btn btn-primary"  onclick="addSupportmessage()" >Submit Form</button>
         </center>
     </div>
         </div>

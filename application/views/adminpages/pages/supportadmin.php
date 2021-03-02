@@ -22,87 +22,59 @@
                     <th scope="col">Subject</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Eren Jaeger</td>
-                    <td>Company</td>
-                    <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>11 Zeke St.</td>
-                    <td>Paradis City</td>
-                    <td>Subject</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Mikasa Ackerman</td>
-                    <td>Company</td>
-                    <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>26 Braun St.</td>
-                    <td>Paradis City</td>
-                    <td>Subject</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Armin Arlert</td>
-                    <td>Company</td>
-                    <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>13 Erwin St.</td>
-                    <td>Paradis City</td>
-                    <td>Subject</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>Sasha Braus</td>
-                    <td>Company</td>
-                    <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>12 Jean St.</td>
-                    <td>Paradis City</td>
-                    <td>Subject</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>Annie Leonhart</td>
-                    <td>Company</td>
-                    <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>22 Hoover St.</td>
-                    <td>Marley City</td>
-                    <td>Subject</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td>Colt Grice</td>
-                    <td>Company</td>
-                    <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>28 Porco St.</td>
-                    <td>Marley City</td>
-                    <td>Subject</td>
-                </tr>
-                <tr>
-                    <th scope="row">7</th>
-                    <td>Levi Ackerman</td>
-                    <td>Company</td>
-                     <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>19 Petra St.</td>
-                    <td>Paradis City</td>
-                    <td>Subject</td>
-                </tr>
-                <tr>
-                    <th scope="row">8</th>
-                    <td>Connie Springer</td>
-                    <td>Company</td>
-                     <td>####-###-####</td>
-                    <td>company@domain.com</td>
-                    <td>21 Historia St.</td>
-                    <td>Paradis CIty</td>
-                    <td>Subject</td>
-                </tr>
+                       <tbody id="tbody">
+            <script>
+                 var temp =  localStorage.getItem('supportMessagecount');
+                
+                    for (var i = 0; i <= temp; i++){
+                        
+                    var table1 =  document.getElementById('tbody');
+                   
+                    
+                    var tr = document.createElement('tr');
+                    var th1 = document.createElement('th');
+                    var td1 = document.createElement('td');
+                    var td2 = document.createElement('td');
+                    var td3 = document.createElement('td');
+                    var td4 = document.createElement('td');
+                    var td5 = document.createElement('td');
+                    var td6 = document.createElement('td');
+                    var td7 = document.createElement('td');
+
+                        var th1text = document.createTextNode(""+(i+1));
+                        var td1text = document.createTextNode('Test Value');
+                        var td2text = document.createTextNode('Test Value');
+                        var td3text = document.createTextNode('Test Value');
+                        var td4text = document.createTextNode('Test Value');
+                        var td5text = document.createTextNode('Test Value');
+                        var td6text = document.createTextNode('Test Value');
+                        var td7text = document.createTextNode('Test Value');
+
+                    th1.appendChild(th1text);
+                    td1.appendChild(td1text);
+                    td2.appendChild(td2text);
+                    td3.appendChild(td3text);
+                    td4.appendChild(td4text);
+                    td5.appendChild(td5text);
+                    td6.appendChild(td6text);
+                    td7.appendChild(td7text);
+
+
+
+                    tr.appendChild(th1);
+                    tr.appendChild(td1);
+                    tr.appendChild(td2);
+                    tr.appendChild(td3);
+                    tr.appendChild(td4);
+                    tr.appendChild(td5);
+                    tr.appendChild(td6);
+                    tr.appendChild(td7);
+
+                    table1.appendChild(tr);
+                    }
+                    
+                </script>
+                
             </tbody>
         </table>
     </div>
