@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/transactionAdminStyle.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/dashboardAdminStyle.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/supportAdminStyle.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>application/assets/css/pingAdmin.css">
+
 
 </head>
 
