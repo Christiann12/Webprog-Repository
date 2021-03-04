@@ -1,62 +1,57 @@
-/* Header style */
-.suppheader h1 
-{
-	font-family: 'Inter';
+/*Text*/
+.pingheading h1 {
+    font-family: 'Inter';
     font-weight: 800;
     color: black;
 }
-
-.suppheader p 
-{
+.pingheading p {
     font-family: 'Inter';
     font-weight: 700;
     color: #7d7d7d;
 }
-
-/* Table style */
+/*Table*/
 .table .thead-odms th {
     color: #ffea00;
     background-color: #212529;
     border-color: #32383e;
 }
-
-/* Media Query */
+/*Media Queries*/
 @media (max-width: 576px) {
-    .suppheader h1 {
+    .pingheading h1 {
         font-size: 1.5rem;
     }
 
-    .suppheader p {
+    .pingheading p {
         font-size: 0.875rem;
     }
 }
 /* 576px and up */
 @media (min-width: 576px) {
-    .suppheader h1 {
+    .pingheading h1 {
         font-size: 1.5rem;
     }
 
-    .suppheader p {
+    .pingheading p {
         font-size: 0.875rem;
     }
 
 }
 @media (min-width: 768px) {
-    .suppheader h1 {
+    .pingheading h1 {
         font-size: 2.5rem;
     }
 
-    .suppheader p {
+    .pingheading p {
         font-size: 0.9375rem;
     }
 }
 
 @media (min-width: 992px) { 
-    .suppheader h1 {
+    .pingheading h1 {
         font-size: 2.5rem;
     }
 
-    .suppheader p {
+    .pingheading p {
         font-size: 1rem;
     }
 }    

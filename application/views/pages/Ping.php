@@ -80,7 +80,7 @@
 
                                     <div class="modal-footer">
                                         <button type="button" class="cancel-btn btn btn-default" data-dismiss="modal">Quit</button>
-                                        <button type="submit" class="proceed-btn btn btn-default" >Ping</button>
+                                        <button type="submit" class="proceed-btn btn btn-default" onclick="addPing()" >Ping</button>
                                     </div>
                                 </div>
                             </div>

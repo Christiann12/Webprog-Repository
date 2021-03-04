@@ -47,5 +47,6 @@
 	<script src="<?php echo base_url(); ?>application/assets/js/header.js"></script>
 	<script src="<?php echo base_url(); ?>application/assets/js/addtransaction.js"></script>
 	<script src="<?php echo base_url(); ?>application/assets/js/addSuppMessage.js"></script>
+	<script src="<?php echo base_url(); ?>application/assets/js/addping.js"></script>
 </body>
 </html>
