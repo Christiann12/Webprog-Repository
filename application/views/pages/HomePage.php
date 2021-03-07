@@ -14,15 +14,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         
                         <!-- Carousel content-->
                         <div class="carousel-item active">
-                            <img src="<?php echo base_url(); ?>application/assets/images/Chrysanthemum.jpg" alt="Carousel Item" class="w-100 h-100">
+                            <img src="<?php echo base_url(); ?>application/assets/images/1.jpg" alt="Carousel Item" class="w-100 h-100">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="<?php echo base_url(); ?>application/assets/images/Tulips.jpg" alt="Carousel Item" class="w-100 h-100">
+                            <img src="<?php echo base_url(); ?>application/assets/images/2.jpg" alt="Carousel Item" class="w-100 h-100">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="<?php echo base_url(); ?>application/assets/images/Desert.jpg" alt="Carousel Item" class="w-100 h-100">
+                            <img src="<?php echo base_url(); ?>application/assets/images/3.jpg" alt="Carousel Item" class="w-100 h-100">
                         </div>
 
                         <!-- Next and Previous button -->
